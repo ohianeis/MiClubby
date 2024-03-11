@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	
+	<link href="https://vjs.zencdn.net/7.2/video-js.min.css" rel="stylesheet"> 
+	<script src="https://vjs.zencdn.net/7.2/video.min.js"></script> 
+
+	
+	<!--<script src="js/video.js"></script>-->
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<title>Video.js</title>
+</head>
+<body>
+	<header>
+		<img src="balls-sports_5540420 1.svg" alt="" width="60px" height="60px"/>
+		<h1 class="titulo">Mi Clubbi</h1>
+		
+	</header>
+
+	<main>
+		<div class="contenedor">
+			<video aria-describedby="video descriptivo de el prototipado Mi Clubbi" class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
+				<source src="video/MyClubbi.mp4" type="video/mp4">
+				<track src="descripcion.vtt" kind="descriptions" srclang="es" label="descripción del vídeo">
+				
+			</video>
+			
+	
+
+			<article>
+				
+				<div class="perfiles descripcion">
+				<h2>¡Bienvenido a nuestra aplicación de gestión deportiva!</h2>
+				<h3>¿Que es Mi Clubbi?</h3><br />
+	
+				<p>Nuestra aplicación de gestión deportiva está diseñada para facilitar la organización y comunicación dentro
+					de los equipos deportivos. Ya sea que seas un entrenador, un jugador o un padre, encontrarás herramientas
+					específicas para satisfacer tus necesidades.
+				</p>
+			</div>
+				<hr/>
+				<div class="perfiles entrenador">
+					<h4>Entrenador</h4>
+					<i class="fa fa-thin fa-calendar" style="color: #63E6BE;"></i><p><span class="resaltado">Organización de eventos: </span>Crea y programa eventos en el calendario para entrenamientos, partidos y reuniones.</p><br/><br/>
+					<i class="fa fa-solid fa-dumbbell" style="color: #63E6BE;"></i><p><span class="resaltado">Gestión de entrenamientos: </span>Planifica y registra sesiones de entrenamiento, registra estadísticas sobre los jugadores, entrenamientos....</p><br/><br/>
+					<i class="fa fa-regular fa-image" style="color: #63E6BE;"></i><p><span class="resaltado">Sube fotos: </span>Comparte momentos destacados con el equipo.</p><br/><br/>
+					<i class="fa fa-solid fa-utensils" style="color: #63E6BE;"></i><p><span class="resaltado">Dietas presonalizadas: </span>Proporciona recetas y consejos nutricionales específicos para cada deporte y jugador.</p><br/><br/>
+				</div>
+				<hr/>
+				<div class="perfiles jugador">
+					<h4>Jugadores</h4>
+					<i class="fa fa-thin fa-calendar" style="color: #63E6BE;"></i><p><span class="resaltado">Visualización de eventos: </span>Accede al calendario para conocer las fehcas de entrenamientos y partidos y gestiona tus propios eventos.</p><br/><br/>
+					<i class="fa fa-solid fa-dumbbell" style="color: #63E6BE;"></i><p><span class="resaltado">Seguimiento de entrenamientos: </span>Consulta los detalles proporcionados por tu entrenador de las sesiones de entrenamiento y los partidos.</p><br/><br/>
+					<i class="fa fa-regular fa-image" style="color: #63E6BE;"></i><p><span class="resaltado">Explora contenido multimedia: </span>Mira las fotos subidas por el entrenador y descarga las que más te gusten.</p><br/><br/>
+					<i class="fa fa-solid fa-utensils" style="color: #63E6BE;"></i><p><span class="resaltado">Acceso a dietas: </span>Encuentra recetas y recomendaciones nutricionales adaptadas a tus necesidades deportiva, comunica a tu entrenador tus intolerancias para hacer aun más persnalizadas tus dietas.</p><br/><br/>
+				</div>
+				<hr/>
+				<div class="perfiles padres">
+					<h4>Padres</h4>
+					<i class="fa fa-solid fa-child" style="color: #63E6BE;"></i><p><span class="resaltado">Vinculación con los hijos: </span>Sigue el progreso de tu hijo en el equipo.</p><br/><br/>
+					<i class="fa fa-thin fa-calendar" style="color: #63E6BE;"></i><p><span class="resaltado">Calendario compartido: </span>Mantente informado sobre los eventos y actividades.</p><br/><br/>
+					<i class="fa fa-regular fa-image" style="color: #63E6BE;"></i><p><span class="resaltado">Acceso al contenido multimedia: </span>Mira las fotos subidas por el entrenador del equipo y sus jugadores.</p><br/><br/>
+					<i class="fa fa-solid fa-utensils" style="color: #63E6BE;"></i><p><span class="resaltado">Acceso a dietas: </span>Informatie sobre las dietas recomendadas por el entrenador para los jugadores.</p><br/><br/>
+				</div>
+				<hr/>
+				<p id="mensajeria"><span class="exclamacion">¡</span> Seas entrenador, jugador o padre utiliza la mensajería para estar en contacto <span class="exclamacion">!</span></p>
+			</article>
+		</div>
+	</main>
+
+	<script>
+		var reproductor = videojs('fm-video', {
+			fluid: true
+		});
+	</script>
+</body>
+</html>

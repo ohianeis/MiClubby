@@ -1,0 +1,109 @@
+WEBVTT	
+
+00:00:04.500 --> 00:00:07.300
+Hola a todos, a través de este vídeo vamos a poder ver cómo
+
+00:00:07.300 --> 00:00:09.900
+funciona mi Clubbi a través del prototipado hecho en figma
+
+00:00:09.900 --> 00:00:12.800
+lo veremos como un ejemplo con el apartado de nutrición
+
+00:00:12.800 --> 00:00:15.000
+visto desde el perfil entrenador y el perfil jugador.
+
+00:00:15.000 --> 00:00:17.800
+a lo largo de la aplicación tendremos distintos
+
+00:00:17.800 --> 00:00:20.700
+componentes con los que poder interactuar con ella,
+
+00:00:20.700 --> 00:00:23.500
+podemos pulsar botones, iconos, checkbox e imágenes
+
+00:00:24.500 --> 00:00:26.400
+mi Clubbi está diseñado para la gestión de equipos.
+
+00:00:26.400 --> 00:00:28.700
+En ella se ha integrado un calendario para eventos,
+
+00:00:28.700 --> 00:00:30.900
+un apartado de estadísticas, otro de dietas,
+
+00:00:30.900 --> 00:00:32.600
+una galería y un servicio de mensajería.
+
+00:00:36.600 --> 00:00:35.000
+Elegiremos nuestro perfil cuando nos
+
+00:00:35.000 --> 00:00:36.700
+registremos la primera vez en la aplicación.
+
+00:00:37.600 --> 00:00:41.300
+tendremos tres, entrenador, jugador, padre o madre
+
+00:00:42.600 --> 00:00:45.300
+El entrenador es el que tiene más poder sobre todo en la
+
+00:00:45.300 --> 00:00:48.600
+aplicación, es el que gestiona todo lo referente al equipo.
+
+00:00:49.200 --> 00:00:51.100
+y vamos a pasar a ver el ejemplo de
+
+00:00:51.100 --> 00:00:53.500
+la gestión de nutrición a través del perfil de entrenador.
+
+00:00:55.400 --> 00:00:58.000
+podemos ver que tenemos la opción de añadir una nueva dieta,
+
+00:00:58.600 --> 00:01:03.500
+nombre y descripción, restricciones, el objetivo de la dieta,
+
+00:01:03.500 --> 00:01:08.000
+añadir comentarios extra que se deseen y subir el pdf.
+
+00:01:09.000 --> 00:01:09.700
+una vez creada,
+
+00:01:10.300 --> 00:01:12.300
+estas dietas van a aparecer en la sección central.
+
+00:01:12.900 --> 00:01:14.800
+vamos a ver la dieta uno.
+
+00:01:14.800 --> 00:01:17.500
+Tenemos un resumen de la dieta y el pdf
+
+00:01:18.300 --> 00:01:21.400
+y la opción de borrar la dieta y de editarla.
+
+00:01:23.500 --> 00:01:25.300
+Vamos a pasar al perfil de jugador
+
+00:01:25.300 --> 00:01:26.800
+para ver este apartado de nutrición.
+
+00:01:28.500 --> 00:01:29.900
+Podemos ver que ya no tenemos la
+
+00:01:29.900 --> 00:01:31.200
+opción de añadir una nueva dieta.
+
+00:01:32.100 --> 00:01:34.300
+Si que se puede añadir una nueva restricción
+
+00:01:34.300 --> 00:01:37.400
+alimentaria por parte del jugador y si lo desea
+
+00:01:37.400 --> 00:01:40.800
+notificárselo al entrenador dentro de las dietas ya
+
+00:01:42.100 --> 00:01:45.900
+no está la opción de borrar ni de editar el jugador
+
+00:01:45.900 --> 00:01:50.400
+puede añadir un comentario y descargarse el pdf con
+
+00:01:50.400 --> 00:01:50.700
+la dieta
